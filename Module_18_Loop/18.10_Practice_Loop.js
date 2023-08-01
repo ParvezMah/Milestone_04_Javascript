@@ -100,65 +100,41 @@ console.log('Problem - 10 : Find your barbie');
 
 
 // Using While Loop;
-var friends = ['Minhaz', 'Dilruba', 'Kutub', 'Josna', 'Tasmir', 'Sakib', 'Mamun', "Jesmin"];
-var i = 0;
-while(i<friends.length){
-    if(friends[i].length % 2 == 0){
-        console.log(friends[i], " Hi, Barbie!");
-    }
-    i++;
-}
-
-
-
-
-// Using For Loop;
-var friends = ['Minhaz', 'Dilruba', 'Kutub', 'Josna', 'Tasmir', 'Sakib', 'Mamun', "Jesmin"];
-
-for(var i=0; i<friends.length;i++){
-    var friendsLength = friends[i].length;
-    if(friendsLength % 2 != 0){
-        continue;
-    }
-    console.log(friends[i], " Hi, Barbie!");
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // var friends = ['Minhaz', 'Dilruba', 'Kutub', 'Josna', 'Tasmir', 'Sakib', 'Mamun', "Jesmin"];
-// var i =0;
+// var i = 0;
 // while(i<friends.length){
 //     if(friends[i].length % 2 == 0){
+//         console.log(friends[i], " Hi, Barbie!");
+//     }
+//     i++;
+// }
+
+
+
+
+
+
+console.log('====================Using while Loop====================');
+// var friends = ['Minhaz', 'Dilruba', 'Kutub', 'Josna', 'Tasmir', 'Sakib', 'Mamun', "Jesmin"];
+// var i = 0;
+// while(i<friends.length){
+//     var friendsLength = friends[i].length;
+//     if(friendsLength % 2 != 0){
+//         i++;
 //         continue;
 //     }
-//     console.log(friends[i]);
+//     console.log(friends[i], " Hi, Barbie!");
 //     i++;
+// }
+
+
+console.log('\n');
+console.log('====================Using For Loop====================');
+// var friends = ['Minhaz', 'Dilruba', 'Kutub', 'Josna', 'Tasmir', 'Sakib', 'Mamun', "Jesmin"];
+// for(var i=0; i<friends.length;i++){
+//     var friendsLength = friends[i].length;
+//     if(friendsLength % 2 != 0){
+//         continue;
+//     }
+//     console.log(friends[i], " Hi, Barbie!");
 // }
