@@ -41,32 +41,124 @@ console.log('Problem - 6 : I have learned topics last few days');
 
 console.log('\n');
 console.log('Problem - 7 : Create an array for all the topics that you have display them using while loop');
-var mobileArray = ['Symphony','Nokia','Citycell', 'Nokia3000','Symphony V75'];
-var i = 0;
-while(i <= mobileArray.length){
-    console.log(mobileArray[i]);
-    i++;
-}
+// var mobileArray = ['Symphony','Nokia','Citycell', 'Nokia3000','Symphony V75'];
+// var i = 0;
+// while(i <= mobileArray.length){
+//     console.log(mobileArray[i]);
+//     i++;
+// }
 
 
 console.log('\n');
 console.log('Problem - 8 : Run a Loop from 30 to 86. this loop will stop when values get higher than 44');
-var count = 30;
-while(count <=86){
-    console.log(count);
-    count++;
-}
+// var count = 30;
+// while(count <=86){
+//     console.log(count);
+//     count++;
+// }
 
 console.log('\n');
 console.log('Problem - 9 : write the price of books that you have. Display the prices if the prices is lower than 200');
 
-var BookPrice = [126, 453, 296, 751, 189, 175, 211, 190];
-for(var i=0; i<=BookPrice.length;i++){
-    if(BookPrice[i] > 200){
-        continue;
+// var BookPrice = [126, 453, 296, 751, 189, 175, 211, 190];
+// for(var i=0; i<=BookPrice.length;i++){
+//     if(BookPrice[i] > 200){
+//         continue;
+//     }
+//     console.log(BookPrice[i]);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+console.log('\n');
+console.log('Problem - 10 : Find your barbie');
+
+
+
+
+
+
+
+
+// Using While Loop;
+var friends = ['Minhaz', 'Dilruba', 'Kutub', 'Josna', 'Tasmir', 'Sakib', 'Mamun', "Jesmin"];
+var i = 0;
+while(i<friends.length){
+    if(friends[i].length % 2 == 0){
+        console.log(friends[i], " Hi, Barbie!");
     }
-    console.log(BookPrice[i]);
+    i++;
 }
 
 
 
+
+// Using For Loop;
+var friends = ['Minhaz', 'Dilruba', 'Kutub', 'Josna', 'Tasmir', 'Sakib', 'Mamun', "Jesmin"];
+
+for(var i=0; i<friends.length;i++){
+    var friendsLength = friends[i].length;
+    if(friendsLength % 2 != 0){
+        continue;
+    }
+    console.log(friends[i], " Hi, Barbie!");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var friends = ['Minhaz', 'Dilruba', 'Kutub', 'Josna', 'Tasmir', 'Sakib', 'Mamun', "Jesmin"];
+// var i =0;
+// while(i<friends.length){
+//     if(friends[i].length % 2 == 0){
+//         continue;
+//     }
+//     console.log(friends[i]);
+//     i++;
+// }
