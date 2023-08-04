@@ -5,14 +5,14 @@
 
 
 
-// var items = ['bottle', 'mouse', 'sunglass', 'pen', 'notebook'];
-// for(var i = 0; i< items.length; i++){
-//     var item = items[i];
-//     if(item == 'pen'){
-//         break
-//     }
-//     console.log(item)
-// }
+var items = ['bottle', 'mouse', 'sunglass', 'pen', 'notebook'];
+for(var i = 0; i< items.length; i++){
+    var item = items[i];
+    if(item == 'pen'){
+        break;
+    }
+    console.log(item)
+}
 
 
 

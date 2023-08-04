@@ -29,7 +29,4 @@ console.log(fullLine);
 Sarah_mother = 119;
 reminder = 119 % 5;
 console.log(reminder);
-
-
-
 console.log(17%5);

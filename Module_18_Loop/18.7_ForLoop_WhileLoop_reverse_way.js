@@ -6,6 +6,8 @@ while(num >= 1){
 }
 
 
+
+// Reverse For loop
 console.log('\n');
 console.log('Reverse For loop');
 for(var i = 10; i>=1; i--){

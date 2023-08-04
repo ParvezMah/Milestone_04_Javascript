@@ -2,7 +2,7 @@
 var price1 = 0.1;
 var price2 = 0.2;
 sum = price1 + price2
-sum = sum.toFixed(1)
+sum = sum.toFixed(2)
 sum = parseFloat(sum);
 console.log(sum);
 

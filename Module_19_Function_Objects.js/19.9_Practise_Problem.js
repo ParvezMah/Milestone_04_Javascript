@@ -86,4 +86,39 @@
 
 
 
-console.log('If else & Switch Statement');
+console.log('If else Statement');
+var color = '';
+if(color === 'red'){
+    console.log('I am in Danger');
+}
+else if(color === 'yellow'){
+    console.log('I will wait for Green light');
+}
+else if(color === 'green'){
+    console.log('Now I will cross the road');
+}
+else{
+    console.log('I will go another road');
+}
+
+
+
+
+
+console.log('\n');
+console.log('Switch Statement');
+var color = 'yellow';
+switch(color){
+    // case color === 'red':
+    case 'red':
+        console.log('I am in Danger');
+        break;
+    case 'yellow':
+        console.log('I will wait for Green light');
+        break;
+    case 'green':
+        console.log('Now I will cross the road');
+        break;
+    default:
+        console.log('I will go another road');
+}
