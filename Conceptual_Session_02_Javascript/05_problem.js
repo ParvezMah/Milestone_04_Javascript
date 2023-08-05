@@ -21,13 +21,13 @@ console.log(total)
 console.log('\n')
 console.log('Problem - 2 : Odd Number from Array');
 function OddNumfromArr(arr){
-    let sum = 0;
+    let ODD_list = [];
     for(let item of arr){
         if(item % 2 === 1){
-            sum+=item;
+            ODD_list.push(item);
         }
     }
-    return sum;
+    return ODD_list;
 }
 const Numbers = [1,2,3,4,5,6,7,8];
 const total2 = OddNumfromArr(Numbers);
@@ -36,4 +36,4 @@ console.log(total2);
 
 
 console.log('\n')
-console.log('Problem - 2 : Looping through an Object');
+console.log('Problem - 3 : Looping through an Object');

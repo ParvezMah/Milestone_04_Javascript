@@ -21,6 +21,6 @@ console.log(Math.floor(num3));
 console.log('\n','round()')
 console.log(Math.round(num3));
 
-console.log('\n','random()')
-const randomNum = Math.round(Math.random()*100);
-console.log(randomNum);
+// console.log('\n','random()')
+// const randomNum = Math.round(Math.random()*100);
+// console.log(randomNum);

@@ -1,28 +1,28 @@
-console.log('Factorial  Using For loop')
-function factorial(number){
-    let result = 1;
-    for(let i=1; i<=number1; i++){
-        result = result * i;
-    }
-    return result;
-}
-const number1 = 5;
-console.log('Factorial of : ', number1,' is ' ,factorial(number1));
+// console.log('Factorial  Using For loop')
+// function factorial(number){
+//     let result = 1;
+//     for(let i=1; i<=number1; i++){
+//         result = result * i;
+//     }
+//     return result;
+// }
+// const number1 = 5;
+// console.log('Factorial of : ', number1,' is ' ,factorial(number1));
 
 
 
 
-console.log('\n');
-console.log('Reverse Factorial Using While Loop');
-function ReverseFacFor(number){
-    let result = 1;
-    for(let i=number; i>=1; i++){
-        result = result * i;
-    }
-    return result;
-}
-const number2 = 5;
-console.log('Factorial of : ', number2,' is ' ,factorial(number2));
+// console.log('\n');
+// console.log('Reverse Factorial Using While Loop');
+// function ReverseFacFor(number){
+//     let result = 1;
+//     for(let i=number; i>=1; i++){
+//         result = result * i;
+//     }
+//     return result;
+// }
+// const number2 = 5;
+// console.log('Factorial of : ', number2,' is ' ,factorial(number2));
 
 
 
