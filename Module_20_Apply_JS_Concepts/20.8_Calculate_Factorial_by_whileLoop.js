@@ -59,3 +59,23 @@ const ReverseFactorialNumber = ReverseFactorial(number4);
 console.log('Factorial of ', ReverseFactorialNumber)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

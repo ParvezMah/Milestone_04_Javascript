@@ -1,0 +1,9 @@
+1 , Array
+    1. Sum of all element in Array
+    2. Even Number and odd number
+    3. largest number and Lowest Number
+    4. Remove Duplicate item
+    5. is array or not
+2. Object
+    1. Sum all values in an objects
+    2. largest number and Lowest Number

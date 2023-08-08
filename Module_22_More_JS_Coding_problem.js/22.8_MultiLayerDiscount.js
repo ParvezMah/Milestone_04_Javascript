@@ -6,4 +6,9 @@ function ticketPrice(ticketQty){
         const price = ticketQty * first100rate;
         return price;
     }
+    else if(ticketQty <= 200){
+        
+    }
 }
+const price = ticketPrice(1);
+console.log(price);

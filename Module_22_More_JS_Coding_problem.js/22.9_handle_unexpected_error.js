@@ -5,3 +5,6 @@ function add(num1, num2){
     return num1 + num2;
 }
 console.log(add(5, '45'));
+
+
+console.log(typeof 6);
